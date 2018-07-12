@@ -1,7 +1,7 @@
 {
-  "name": "bitcore-lib-zcash",
+  "name": "bitcore-lib-crypticcoin",
   "version": "0.13.19",
-  "description": "A pure and powerful JavaScript Zcash library.",
+  "description": "A pure and powerful JavaScript CrypticCoin library.",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
@@ -69,7 +69,7 @@
     }
   ],
   "keywords": [
-    "zcash",
+    "crypticcoin",
     "transaction",
     "address",
     "p2p",
@@ -86,7 +86,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/zcash-hackworks/bitcore-lib-zcash.git"
+    "url": "https://git.sfxdx.ru/cryptic/bitcore-lib-crypticcoin.git"
   },
   "browser": {
     "request": "browser-request"
@@ -100,7 +100,7 @@
     "lodash": "=3.10.1"
   },
   "devDependencies": {
-    "bitcore-build-zcash": "str4d/bitcore-build-zcash",
+    "bitcore-build-crypticcoin": "git+https://git.sfxdx.ru/cryptic/bitcore-build-crypticcoin.git",
     "brfs": "^1.2.0",
     "chai": "^1.10.0",
     "gulp": "^3.8.10",
